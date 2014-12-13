@@ -1,4 +1,5 @@
 {
+	"id":"deployment-policy-1",
     "applicationPolicy": {
         "applicationId": "single-cartridge-app",
         "networkPartition": [
@@ -12,7 +13,7 @@
                         "property": [
                             {
                                 "name": "region",
-                                "value": ""
+                                "value": "default"
                             }
                         ]
                     }
@@ -22,7 +23,7 @@
     },
     "childPolicies": [
         {
-            "childId": "mytomcat",
+            "childId": "tomcat",
             "networkPartition": [
                 {
                     "id": "network-p1",

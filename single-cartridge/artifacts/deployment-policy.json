@@ -1,7 +1,6 @@
 {
-	"id":"deployment-policy-1",
+	"applicationId":"single-cartridge-app",
     "applicationPolicy": {
-        "applicationId": "single-cartridge-app",
         "networkPartition": [
             {
                 "id": "network-p1",

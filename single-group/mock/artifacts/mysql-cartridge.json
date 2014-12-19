@@ -1,0 +1,48 @@
+{
+   "type":"mysql",
+   "category":"framework",
+   "provider":"mysql",
+   "host":"mysql.com",
+   "displayName":"tomcat",
+   "description":"MySQL Community Server",
+   "version":"5.5",
+   "multiTenant":"false",
+   "portMapping":[
+      {
+         "protocol":"http",
+         "port":"8080",
+         "proxyPort":"8280"
+      }
+   ],
+   "deployment":{
+	   "baseDir": "",
+	   "dir":[]
+   },
+   "iaasProvider":[
+      {
+         "type":"mock",
+         "imageId":"",
+         "networkInterfaces":[
+            {
+               "name":"network-non-routable",
+               "networkUuid":""
+            }
+         ],
+         "maxInstanceLimit":"2",
+         "property":[
+            {
+               "name":"instanceType",
+               "value":"instance-type-1"
+            },
+            {
+               "name":"keyPair",
+               "value":"imesh-key"
+            },
+            {
+               "name":"securityGroups",
+               "value":"default"
+            }
+         ]
+      }
+   ]
+}

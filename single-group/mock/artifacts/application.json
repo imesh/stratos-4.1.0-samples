@@ -1,0 +1,37 @@
+{
+    "applicationId": "single-group-app",
+    "alias": "single-group-app",
+    "components": {
+        "groups": [
+            {
+                "name": "cartridge-group-1",
+                "alias": "single-group-app-group-1",
+                "groupMinInstances": 1,
+                "groupMaxInstances": 1,
+                "cartridges": [
+                    {
+                        "type": "tomcat",
+                        "cartridgeMin": 1,
+                        "cartridgeMax": 10,
+                        "subscribableInfo": {
+                            "alias": "single-group-app-tomcat",
+                            "autoscalingPolicy": "autoscale-policy-1"
+                        }
+                    },
+                    {
+                        "type": "mysql",
+                        "cartridgeMin": 1,
+                        "cartridgeMax": 5,
+                        "subscribableInfo": {
+                            "alias": "single-group-app-mysql",
+                            "autoscalingPolicy": "autoscale-policy-1"
+                        }
+                    }
+                ]
+            }
+        ]
+        }
+    }
+}
+
+

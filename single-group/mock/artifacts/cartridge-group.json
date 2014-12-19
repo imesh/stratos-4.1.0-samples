@@ -1,0 +1,12 @@
+{
+    "name": "cartridge-group-1",
+    "cartridges": [
+        "tomcat","mysql"
+    ],
+    "dependencies": {
+        "startupOrders": [
+            "cartridge.mysql,cartridge.tomcat"
+        ],
+        "terminationBehaviour": "terminate-none"
+    }
+}

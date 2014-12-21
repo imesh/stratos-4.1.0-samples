@@ -22,7 +22,7 @@
     },
     "childPolicies": [
         {
-            "childId": "tomcat",
+            "alias": "tomcat",
             "networkPartition": [
                 {
                     "id": "network-p1",

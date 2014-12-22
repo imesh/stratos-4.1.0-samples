@@ -29,7 +29,6 @@
                "networkUuid":""
             }
          ],
-         "maxInstanceLimit":"2",
          "property":[
             {
                "name":"instanceType",

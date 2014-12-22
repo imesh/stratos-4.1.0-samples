@@ -27,5 +27,5 @@ curl -X POST -H "Content-Type: application/json" -d @'artifacts/application.json
 sleep 2
 
 echo "Deploying application..."
-curl -X POST -H "Content-Type: application/json" -d@'artifacts/deployment-policy.json' -k -u admin:admin https://localhost:9443/api/application/single-group-app/deploy
+curl -X POST -H "Content-Type: application/json" -d@'artifacts/deployment-policy.json' -k -u admin:admin https://localhost:9443/api/applications/single-group-app/deploy
 

@@ -23,7 +23,7 @@
     },
     "childPolicies": [
         {
-            "childId": "php",
+            "alias": "php",
             "networkPartition": [
                 {
                     "id": "network-p1",

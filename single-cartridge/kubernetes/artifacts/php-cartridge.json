@@ -1,0 +1,35 @@
+{
+   "type":"php",
+   "category":"framework",
+   "provider":"php.net",
+   "host":"php.stratos.org",
+   "displayName":"PHP",
+   "description":"PHP",
+   "version":"5.6",
+   "multiTenant":"false",
+   "portMapping":[
+      {
+         "protocol":"http",
+         "port":"8080",
+         "proxyPort":"8280"
+      }
+   ],
+   "deployment":{
+
+   },
+   "iaasProvider":[
+      {
+         "type":"kubernetes",
+         "imageId":"stratos/php:4.1.0-alpha",
+         "networkInterfaces":[
+            {
+               "name":"network-non-routable",
+               "networkUuid":""
+            }
+         ],
+         "maxInstanceLimit":"10",
+         "property":[
+         ]
+      }
+   ]
+}

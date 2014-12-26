@@ -30,7 +30,26 @@
                      ]
                 }
     ],
-
-    "property": [
+    "property":[
+       {
+          "name":"payload_parameter.MB_IP",
+          "value":"192.168.59.3"
+       },
+       {
+          "name":"payload_parameter.MB_PORT",
+          "value":"1883"
+       },
+       {
+          "name":"payload_parameter.CEP_IP",
+          "value":"192.168.59.3"
+       },
+       {
+          "name":"payload_parameter.CEP_PORT",
+          "value":"7711"
+       },
+       {
+          "name":"payload_parameter.LOG_LEVEL",
+          "value":"DEBUG"
+       }
     ]
 }

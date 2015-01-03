@@ -15,7 +15,7 @@
       }
    ],
    "deployment":{
-
+	   "baseDir":"/var/www"
    },
    "iaasProvider":[
       {

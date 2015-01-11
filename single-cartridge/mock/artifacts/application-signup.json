@@ -1,8 +1,7 @@
 {
-   "applicationId":"single-cartridge-app",
    "artifactRepositories":[
       {
-         "alias":"tomcat",
+         "alias":"php",
          "privateRepo":false,
          "repoUrl":"https://github.com/imesh/stratos-php-applications.git",
          "repoUsername":"",
